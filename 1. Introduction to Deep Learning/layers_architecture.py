@@ -56,6 +56,6 @@ model = nn.Sequential(
     nn.ReLU(),
     nn.Linear(n1,n2),
     nn.ReLU(),
-    ...
+    # Add more layers as needed
     nn.Linear(n2,2)
 )
